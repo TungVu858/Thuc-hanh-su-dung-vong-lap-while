@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<input id="num">-->
+<!--<button onclick="total()">Nhập</button>-->
+<!--<p id="demo"></p>-->
+    <script>
+        // function total() {
+        //     let num = +document.getElementById('num');
+        //     let total =0;
+        //     let text ="";
+        //     while (num !=-1){
+        //         num = +document.getElementById('num');
+        //         total += num;
+        //         text = "Tổng:" +total;
+        //     }
+        //     document.getElementById('demo').innerHTML = text;
+        // }
+        let num = +prompt("Enter a number:");
+        let total =0;
+        while (num !==-1){
+            num = +prompt("Enter a number:");
+            total += num;
+        }
+       alert("Tổng:"+total);
+    </script>
+</body>
+</html>
